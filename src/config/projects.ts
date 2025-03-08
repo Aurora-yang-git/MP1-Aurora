@@ -20,16 +20,16 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
+    name: 'Math Kangaroo Gold Award',
     description: '',
     date: '2024',
     location: 'SCLS, Shanghai',
   },
   {
-    name: 'Zhui Ying Award',
+    name: 'Star of the month',
     description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    date: '2024/6',
+    location: 'SCLS, Shanghai',
   },
 ]
 
@@ -39,10 +39,10 @@ export const projectIntro = "Academic research and technical projects I've worke
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'IT Final Project',
+    description: 'Homework Reminder',
+    link: { href: 'https://www.scls-cs.com/final/project_Yang_Yixuan_1736476585534/index.html', label: 'Website' },
+    tags: ['Website', 'JavaScript', 'Time Management']
   },
   {
     name: 'Seeking DNA',
