@@ -28,9 +28,21 @@ export const awards: Array<ActivityItemType> = [
   {
     name: 'Star of the month',
     description: '',
-    date: '2024/6',
+    date: '2024/4',
     location: 'SCLS, Shanghai',
   },
+  {
+    name: "First place in the women's 800 meters at the sports meet",
+    description: '',
+    date: '2024/10',
+    location: 'SCLS, Shanghai',
+  },
+  {
+    name: 'Best debater at the Reading Festival',
+    description: '',
+    date: '2024/12',
+    location: 'SCLS, Shanghai',
+  }
 ]
 
 // Research & Projects
@@ -45,20 +57,14 @@ export const projects: Array<ProjectItemType> = [
     tags: ['Website', 'JavaScript', 'Time Management']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
+    name: 'Lane detection technology based on deep learning',
+    description: 'Huawei Cloud Young Developer Program',
+    link: { href: 'https://auth.huaweicloud.com/', label: 'Hackathon' },
+    tags: ['ModelArts', 'YOLO']
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
+    name: 'AI Camp',
+    description: 'Studying a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
     link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
     tags: ['Education', 'AI']
   },
@@ -70,26 +76,23 @@ export const activitiesIntro = "Personal interests and community contributions."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
-    description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+    name: 'Reading',
+    description: "My family and I have held reading sessions, strengthening our growth and bond; this year, we aim to read 30 books and write more reflections.",
+    date: '2022 ~ Present',
+    location: 'Shanghai'
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'Skiing',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
+      "A hobby I've enjoyed for six years. This year, I had an amazing experience skiing at Hemu Ski Resort, which made me appreciate the sport even more.",
+    date: '2019 ~ Present',
+    location: 'Shanghai'
   },
   {
-    name: 'Code Review Session',
+    name: 'Playing the Piano',
     description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
-  },
+      'I’ve always enjoyed playing the piano, but I’ve rarely practiced since starting high school. Still, it has definitely refined my sense of aesthetics.',
+    date: '2014 ~ 2024',
+    location: 'Shanghai'
+  }
 ]
